@@ -1,0 +1,751 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+
+
+
+
+.baston3{
+          
+  position: absolute;
+  width: 40rem;
+  top: -40rem;
+  left: 64rem;
+  width: 13%;
+
+}
+
+.baston4{
+          
+  position: absolute;
+  top: -40rem;
+  left: 64rem;
+  width: 13%;
+
+}
+
+  /* .baston-animado3{
+    top: -12rem;
+
+  } */
+
+/* @keyframes baston3{
+  0%{
+    transform:translateY(10rem);        
+    filter:blur(0);
+    opacity:1
+  }
+  100%{
+    transform:translateY(34rem);
+    
+    filter:blur(0);
+    opacity:1
+  }
+  } */
+
+
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.yuls{
+    
+    position: absolute;
+    left: 40rem;
+    top: 15rem;
+    width: 30%;
+    cursor: pointer;
+   
+}
+.yuls:hover{
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+.agua{
+
+  position: absolute;
+    width: 40rem;
+    top: -12rem;
+    left: 64rem;
+    width: 13%;
+
+  }
+
+  .agua-animada{
+    animation:agua .6s cubic-bezier(.23,0.8,.32,1.000) both
+    
+  }
+
+
+
+    @keyframes agua{
+      0%{
+          transform:translateY(10rem);        
+          filter:blur(0);
+          opacity:1
+        }
+        100%{
+          transform:translateY(34rem);
+          
+          filter:blur(0);
+          opacity:1
+        }
+        }
+
+
+
+.agua2{
+  
+  position: absolute;
+    width: 40rem;
+    top: -12rem;
+    left: 42rem;
+    width: 13%;
+    
+
+}
+
+@keyframes agua2{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
+
+.cuervo{
+
+  position: absolute;
+    left: 5rem;
+    top: 54rem;
+    width: 40%;
+    animation:cuervo .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes cuervo{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.cuervito{
+
+  position: absolute;
+    left: 15rem;
+    top: 49rem;
+    font-size: 2rem;
+    color:rgb(212, 181, 143);
+    animation:cuervito .7s cubic-bezier(.215,.61,.355,1.000) both
+
+}
+
+.aldea1:hover{
+  /* margin-top: -100px; */
+  translate: 0  10px;
+  transition-duration: 1s;
+}
+.aldea2:hover{
+  translate: 0  10px;
+  transition-duration: 1s;
+}
+.aldea3:hover{
+  translate: 0  10px;
+  transition-duration: 1s;
+}
+
+
+ @keyframes cuervito{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+
+.aldea1{
+
+  position: absolute;
+    width: 15rem;
+    top: 39rem;
+    left: 36rem;
+    animation:aldea1 .4s cubic-bezier(.39,.575,.565,1.000) both
+}
+
+ @keyframes aldea1{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
+
+
+
+.aldea2{
+
+  position: absolute;
+    width: 15rem;
+    top: 15rem;
+    left: 30rem;
+    animation:aldea1 .6s cubic-bezier(.23,1.000,.32,1.000) both
+
+}
+
+  @keyframes aldea2{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
+
+.aldea3{
+
+  position: absolute;
+    width: 15rem;
+    top: 6rem;
+    left: 70rem;
+    animation:aldea1 .6s cubic-bezier(.23,1.000,.32,1.000) both
+  
+}
+
+@keyframes aldea3{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
+
+.cuadro{
+
+    position: absolute;
+    width: 60rem;
+    top: 49rem;
+    animation:cuadro .5s cubic-bezier(.175,.885,.32,1.275) both
+}
+
+@keyframes cuadro{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}
+
+.cuadro1{
+
+  position: absolute;
+    width: 40rem;
+    top: 55rem;
+    left: 40rem;
+    animation:cuadro1 .5s cubic-bezier(.175,.885,.32,1.275) both
+}
+
+ @keyframes cuadro1{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}
+
+.Elementium{
+
+  position: absolute;
+    width: 10rem;
+    top: 59rem;
+    left: 110rem;
+    animation:Elementium .2s cubic-bezier(.47,0.000,.745,.715) both
+
+}
+
+@keyframes Elementium{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+ .intro{
+
+  position: absolute;
+    left: 45rem;
+    top: 58rem;
+    overflow: hidden;
+    white-space: nowrap;
+    animation:intro .7s cubic-bezier(.215,.61,.355,1.000) both
+
+}
+
+@keyframes intro{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.narrador{
+
+  position: absolute;
+    left: 48rem;
+    top: 55rem;
+    color:rgb(212, 181, 143);
+    animation:narrador .7s cubic-bezier(.215,.61,.355,1.000) both
+
+}
+
+ @keyframes narrador{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+ .narranash{
+
+  position: absolute;
+    left: 13rem;
+    top: 49rem;
+    font-size: 2rem;
+    color:rgb(212, 181, 143);
+    animation:cuervito .7s cubic-bezier(.215,.61,.355,1.000) both
+
+}
+
+.explorador{
+
+  position: absolute;
+    left: 5rem;
+    top: 54rem;
+    font-size: 130%;
+    animation:explorador .7s cubic-bezier(.215,.61,.355,1.000) both
+
+}
+
+@keyframes explorador{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.nash{
+
+    position: absolute;
+    left: 40rem;
+    top: 13rem;
+    width: 50%;
+    cursor: pointer;
+}
+
+.nash:hover{
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+/*   animacion del palo de nash escena 3*/
+
+
+
+/* fin copia baston*/
+.baston-animado{
+
+  position: absolute;
+    top: -35rem;
+    left: 59rem;
+    width: 13%;
+    
+}
+
+.baston-animado{
+  animation:baston-animado .6s cubic-bezier(.23,0.8,.32,1.000) both
+  }
+
+
+@keyframes baston{
+  0%{
+      transform:translateY(10rem);        
+      filter:blur(0);
+      opacity:1
+    }
+    100%{
+      transform:translateY(35rem);
+      filter:blur(0);
+      opacity:1
+    }
+    }
+
+    
+
+
+.labores{
+
+  position: absolute;
+    left: 3rem;
+    top: 54rem;
+    font-size: 95%;
+    animation:labores .7s cubic-bezier(.215,.61,.355,1.000) both
+
+}
+
+@keyframes labores{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.nashEscena4{
+
+  position: absolute;
+    left: 75rem;
+    top: 14rem;
+    width: 9%;
+    cursor: pointer;
+}
+
+.nashEscena4:hover{
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+
+
+
+
+
+/* .bastonEscena4{
+
+  position: absolute;
+    top: -35rem;
+    left: 72rem;
+    width: 13%;
+
+}
+ */
+/* .baston-animado{
+  animation:bastonEscena4 .6s cubic-bezier(.23,0.8,.32,1.000) both
+  
+}
+ */
+/*   @keyframes bastonEscena4{
+    0%{
+        transform:translateY(10rem);        
+        filter:blur(0);
+        opacity:1
+      }
+      100%{
+        transform:translateY(45rem);
+        filter:blur(0);
+        opacity:1
+      }
+      }
+ */
+
+.Molly{
+  position: absolute;
+  bottom: 18rem;
+  left: 55rem;
+  width: 13rem;
+  cursor: pointer;
+}
+
+.Molly:hover{
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+.Gato{
+  position: absolute;
+  top: 40rem;
+  left: 50rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.Gato:hover{
+
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+
+
+
+.titulo1{
+  position: absolute;
+  color: rgb(212, 181, 143);
+  font-size: 1.8rem;
+  bottom: 9.1rem;
+  left: 10.9rem;
+  animation:titulo1 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes titulo1{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.parrafo1{
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 1.5rem;
+  left: 5rem;
+  animation:parrafo1 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes parrafo1{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.Cuadro{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 52rem;
+  animation:cuadro .5s cubic-bezier(.175,.885,.32,1.275) both
+}
+
+@keyframes cuadro{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}
+
+
+.Gato2{
+  position: absolute;
+  bottom: 20rem;
+  left: 47rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.Gato2:hover{
+
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+.Molly2{
+  position: absolute;
+  bottom: 20rem;
+  left: 52rem;
+  width: 13rem;
+  cursor: pointer;
+}
+
+.Molly2:hover{
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+.Cuervo{
+  cursor: pointer;
+  position: absolute;
+  top: 3rem;
+  right: 7rem;
+  width: 30rem;
+  animation:Cuervo .4s cubic-bezier(.39,.575,.565,1.000) both
+}
+
+.Cuervo:hover{
+
+  transform: scale(1.05);
+  filter:contrast(1.2);
+}
+
+@keyframes Cuervo{0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40px);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
+
+.Cuadro2{
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  width: 52rem;
+  animation:cuadro2 .5s cubic-bezier(.175,.885,.32,1.275) both
+}
+
+@keyframes cuadro2{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}
+
+
+.titulo2{
+  position: absolute;
+  color: rgb(212, 181, 143);
+  font-size: 1.8rem;
+  bottom: 10rem;
+  left: 11rem;
+  animation:titulo2 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes titulo2{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.parrafo2{
+  position: absolute;
+  bottom: 4.5rem;
+  left: 2rem;
+  font-size: 0.9rem;
+  animation:parrafo2 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes parrafo2{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.logo{
+  position: absolute;
+  width: 10rem;
+  bottom: 3rem;
+  right: 3rem;
+  animation:logo .2s cubic-bezier(.47,0.000,.745,.715) both
+}
+
+@keyframes logo{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+.logo2{
+  position: absolute;
+  width: 10rem;
+  bottom: 4rem;
+  right: 3rem;
+  animation:logo2 .2s cubic-bezier(.47,0.000,.745,.715) both
+}
+
+@keyframes logo2{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+.Molly{
+  position: absolute;
+  width: 11rem;
+  bottom: 18rem;
+  left: 57rem;
+}
+
+.Nash{position: absolute;
+  width: 5rem;
+  right: 40rem;
+  top: 32rem;
+}
+
+.Yuls{
+  position: absolute;
+  width: 8rem;
+  bottom: 9rem;
+  right: 20rem;
+}
+
+.Palo{
+  position: absolute;
+  width: 3rem;
+  right: 41rem;
+  animation:Palo .4s cubic-bezier(.39,.575,.565,1.000) both
+}
+
+
+.Cuadro{
+  position: absolute;
+  left: 0rem;
+  width: 52rem;
+  bottom: 4rem;
+  animation:cuadro .5s cubic-bezier(.175,.885,.32,1.275) both
+}
+
+@keyframes cuadro{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}
+
+.titulo1{
+  position: absolute;
+  color: rgb(212, 181, 143);
+  font-size: 1.8rem;
+  bottom: 13.1rem;
+  left: 10.7rem;
+  animation:titulo1 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes titulo1{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.parrafo1{
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 6.5rem;
+  left: 5rem;
+  animation: parrafo1 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes parrafo1{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.Yuls2{
+  position: absolute;
+  width: 10rem;
+  bottom: 2rem;
+  right: 26rem;
+}
+
+.Fogata{
+  filter: drop-shadow(5px 5px 5px black);
+  position: absolute;
+  width: 15rem;
+  bottom: 0;
+  right: 40rem;
+}
+
+.Cuadro2{
+  position: absolute;
+  bottom: 0;
+  left: 0rem;
+  width: 52rem;
+  animation:cuadro2 .5s cubic-bezier(.175,.885,.32,1.275) both
+}
+
+@keyframes cuadro2{0%{transform:rotateX(-100deg);transform-origin:top;opacity:0}100%{transform:rotateX(0deg);transform-origin:top;opacity:1}}
+
+.Deku{
+  position: absolute;
+  width: 10rem;
+  bottom: 17rem;
+  left: 40rem;
+}
+
+.titulo2{
+  position: absolute;
+  color: rgb(212, 181, 143);
+  font-size: 1.8rem;
+  bottom: 9.1rem;
+  left: 10.7rem;
+  animation:titulo2 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes titulo2{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.parrafo2{
+  position: absolute;
+  font-size: 0.9rem;
+  bottom: 3.5rem;
+  left: 3rem;
+  animation:parrafo2 .7s cubic-bezier(.215,.61,.355,1.000) both
+}
+
+@keyframes parrafo2{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.logo{
+  position: absolute;
+  width: 10rem;
+  bottom: 3rem;
+  right: 3rem;
+  animation:logo .2s cubic-bezier(.47,0.000,.745,.715) both
+}
+
+@keyframes logo{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+.logo2{
+  position: absolute;
+  width: 10rem;
+  bottom: 3rem;
+  right: 3rem;
+  animation:logo2 .2s cubic-bezier(.47,0.000,.745,.715) both
+}
+
+@keyframes logo2{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
